@@ -27,6 +27,8 @@ All input/output is handled via DOS interrupts (`int 21h`), and the calculator g
 
 ---
 ⌨️ Program Flow
+
+
 1.Displays a calculator menu.
 
 2.User selects an operation (1–5).
@@ -42,12 +44,14 @@ All input/output is handled via DOS interrupts (`int 21h`), and the calculator g
 --------
 
 ⚠️ Error Handling
-Invalid Menu Option: Shows error and re-displays the menu
 
-Invalid Number Input: Accepts only numeric digits (0–9)
 
-Addition/Multiplication Overflow: Shows overflow message
+1.Invalid Menu Option: Shows error and re-displays the menu
 
-Division by Zero: Displays specific divide-by-zero error
+2.Invalid Number Input: Accepts only numeric digits (0–9)
+
+3Addition/Multiplication Overflow: Shows overflow message
+
+4.Division by Zero: Displays specific divide-by-zero error
 
 
